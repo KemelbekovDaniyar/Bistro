@@ -358,3 +358,49 @@ section {
 .about {
 	background: var(--neutral-02, #F9F9F7);
 }
+
+
+/* Services */
+
+.services_card img {
+	border-radius: 12px;
+	background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+	width: 306px;
+	height: 320px;
+	flex-shrink: 0;
+	margin-bottom: 30px;
+}
+
+.services_card h6 {
+	color: var(--neutral-07, #2C2F24);
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: -0.72px;
+	margin-bottom: 15px;
+}
+
+.services_card p {
+	color: var(--neutral-06, #414536);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.services_card {
+	flex-direction: column;
+	width: 306px;
+	height: 443px;
+}
+
+.services h2 {
+	color: var(--neutral-07, #2C2F24);
+	font-size: 55px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 60.5px;
+	margin-bottom: 60px;
+	width: 675px;
+}
