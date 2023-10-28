@@ -293,4 +293,68 @@ section {
 	padding: 40px 34px 32px 32px;
 }
 
-.cards_menu {}
+
+/* about */
+
+
+.about .container {
+	align-items: center;
+}
+
+.img_about {
+	width: 649px;
+	height: 616px;
+}
+
+.txt_about {
+	width: 557px;
+	height: 457px;
+}
+
+.txt_about h2 {
+	color: var(--neutral-07, #2C2F24);
+	font-size: 55px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 60.5px;
+	margin-bottom: 24px;
+}
+
+.txt_about p {
+	color: var(--neutral-07, #2C2F24);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+	margin-bottom: 24px;
+}
+
+.txt_about div {
+	color: var(--neutral-06, #414536);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 40px;
+}
+
+.txt_about button {
+	border-radius: 118px;
+	border: 1.5px solid var(--neutral-07, #2C2F24);
+	display: flex;
+	padding: 20px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	color: var(--neutral-07, #182226);
+	text-align: right;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	width: 190px;
+}
+
+.about {
+	background: var(--neutral-02, #F9F9F7);
+}
